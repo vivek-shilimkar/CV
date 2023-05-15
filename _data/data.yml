@@ -3,156 +3,135 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Vivek Shilimkar
+    tagline: Site Reliability Engineer
+    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
+    email: vivek.shilimkar@gmail.com
+    phone: +91 895-613-6398
+    timezone: Pune/India Timezone
+    citizenship: India
     website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    linkedin: dr-vivek-shilimkar
+    github: vivek-shilimkar
     telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
-
+    twitter: '@drvikishi'
+  
     languages:
       title: Languages
       info:
         - idiom: English
           level: Native
 
-        - idiom: French
+        - idiom: Hindi
           level: Professional
 
-        - idiom: Spanish
+        - idiom: Marathi
           level: Professional
+
+        - idiom: Japanese
+          level: Beginner
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Trekking, Camping
           link:
 
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
+        - item: Astronomy, Climate, Weather
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Currently, I am thriving as a Site Reliability Engineer at Infracloud Technologies, where I leverage my technical prowess and knowledge to optimize system reliability, scalability, and performance. Within this role, I have developed an extensive skill set in industry-leading technologies, including Kubernetes, AWS, Terraform, Rancher, GitHub, Jenkins, and more. By effectively utilizing these tools, I ensure seamless deployment, efficient management, and effective monitoring of complex IT infrastructures.
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: PhD in Earth System Science
+        university: Hokkaido University, Sapporo
+        Advisor: Prof. Youichi Tanimoto
+        time: 2015 - 2022
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          Indonesian Through-flow (ITF) is the only major low-latitude oceanic pathway between two oceans, 
+          which transports around 15 Sv of water from the Pacific to Indian Ocean. 
+          As water is transported, it affects the physical properties of both the oceans on different time scales. 
+          Which in turn affects the climate system of Indian Ocean rim countries. 
+          During my PhD I improved the understanding of decadal variability of ITF and 
+          devised a new method of estimating the ITF volume transport based on atmospheric wind and surface heating data. 
+
+      - degree: MSc in Atmospheric Science
+        university: University of Pune
+        time: 2013 - 2015
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Master's Dissertation titled "Variability and trends in tropical Indian Ocean Sea surface salinity in changing climate". 
+          Our study examined the variability and trend in tropical Indian Ocean Sea surface salinity (SSS) in changing climate using an observed data and CMIP5 historical simulations. The results indicate the dipole like variation and trend in SSS associated with the precipitation during Indian Ocean Dipole and ENSO events and trend, in boreal summer monsoon period (JJAS).
+      - degree: BSc in Physics
+        College: S.P. College, Pune
+        time: 2010 - 2012
+        details: 
+          I chaired the Science Association for 2 years, during our group organized a lecture series by scientists and industrialists for students. We also organized and coordinated the Science Day celebration in college.
+
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Site Reliability Engineer
+        time: Oct 2022 - Present
+        company: InfraCloud Technologies Pvt Ltd
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Work Responsibilities are to
+          1.	Review test procedures and write tests.
+          2.	Partner with engineers to drive QA efforts.
+          3.	Execute tests cases under varying circumstances.
+          4.	Evaluate and document the test results.
+          5.	Detect, log, and report program bugs and glitches.
+          6.	Track defects and help troubleshoot errors.
+
+      - role: Site Reliability Engineer
+        time: June 2021 - Sep 2022
+        company: InfraCloud Technologies Pvt Ltd
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Work Responsibilities were to
+          1.	Execute tests cases under varying circumstances.
+          2.	Evaluate and document the test results.
+          3.	Detect, log, and report program bugs and glitches.
+          4.	Track defects and help troubleshoot errors.
+
+      - role: Online Tutor
+        time: Sep 2019 - Sep 2021
+        company: Course Hero, US
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+          Work responsibilities were to
+          1.	Help students to solve problems step-by-step and succeed in their courses.
+          2.	Share my expertise by answering questions and creating practice problems.
+      
+      - role: Subject Matter Expert
+        time: Aug 2018 - July 2021
+        company: Chegg Inc, US
+        details: |
+          Work responsibilities were to
+          1.	Help students to solve problems step-by-step and succeed in their courses.
+          2.	Share my expertise by answering questions and creating practice problems.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - role: Teaching Assistant
+        time: Mar 2018 - Mar 2019
+        company: Hokkaido Sapporo Keisei High School, Japan
+        details: |
+          Work responsibilities were to
+            - Teach science to a small group of students and ensure their understanding.
+            - Superwise the student's group activities and assist them during the class.
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+Publications:
+    Papers:
+      - title: Projected future changes in the contribution of Indo-Pacific Sea surface height variability to the Indonesian Throughflow (JOOC-D-21-00061R1)
+      - link: https://doi.org/10.1007/s10872-022-00641-w
+      - authors: Shilimkar V, Abe H, Roxy MK, Tanimoto Y.
 
 oss:
     title: OSS Contributions
@@ -173,49 +152,13 @@ oss:
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Python
+        level: 70%
+
+      - name: Rancher
         level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
