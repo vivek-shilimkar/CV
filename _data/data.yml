@@ -85,21 +85,37 @@ experiences:
         time: Oct 2022 - Present
         company: InfraCloud Technologies Pvt Ltd
         details: |
-          Work Responsibilities are to
-          1.	Review test procedures and write tests.
-          2.	Partner with engineers to drive QA efforts.
-          3.	Execute tests cases under varying circumstances.
-          4.	Evaluate and document the test results.
-          5.	Detect, log, and report program bugs and glitches.
-          6.	Track defects and help troubleshoot errors.
+          Phase - 3 : RKE1 & Hosted cluster validation ownership
+          Work Responsibilities were to
+          1. Everything in Phase - 2
+          2. Took end-to-end ownership of validating hosted kubernetes cluster 
+             creation and upgrades on AWS, Azure, and GCP.
+             - Provisioning, Importing, and Upgrading clusters via Rancher.
+             - Testing Rancher capability with AKS, EKS and GKE providers.
+
+          Phase - 2 : Took ownership of RKE1 testing, expanding coverage to:
+          Work Responsibilities were to
+          1. Control plane and etcd failure simulations
+          2. Cluster resilience and node failure handeling.
+          3. Cloud provider integration and version compatibility testing.
+          4. Migration from in-tree to out-of-tree cloud provider.
+          5. Test basic functionality of RKE2 and K3s clusters, focusing on:
+              - Cluster creation and upgrades
+          6. Test hosted cluster creation and upgrades on AWS, Azure, and GCP.
 
       - role: Associate Site Reliability Engineer
         time: June 2021 - Sep 2022
         company: InfraCloud Technologies Pvt Ltd
         details: |
+          Phase - 1 : Rancher + RKE1 Validation
           Work Responsibilities were to
-          1.	Execute tests cases under varying circumstances.
-          2.	Evaluate and document the test results.
+          1.	Validated bug fixes and internal issues by provisioning Rancher-managed RKE1 Kubernetes clusters and performing end-to-end regression tests.
+          2.	Ensured Rancher compatibility with upcoming Kubernetes releases, focusing on:
+              - K8S Cluster creation and upgrades
+              - Rancher UI and CLI functionality
+              - Rancher-managed Standalone RKE1 Kubernetes clusters
+          3.  Conduct Rancher upgrade testing and validation.
+
           3.	Detect, log, and report program bugs and glitches.
           4.	Track defects and help troubleshoot errors.
 
